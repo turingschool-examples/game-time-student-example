@@ -18,13 +18,13 @@ describe("Score", function(){
 
   it("currentScore starts at 0", function(){
     let score = new Score();
-    
+
     assert.equal(score.currentScore, 0);
   });
 
   it("returns the currentScore based on the frameCount", function(){
     let score = new Score();
-    for(var i = 0; i < 120; i++) {
+    for(let i = 0; i < 120; i++) {
       score.update();
     }
     assert.equal(score.currentScore, 3);
