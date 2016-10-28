@@ -1,7 +1,7 @@
 const chai = require('chai');
 const assert = chai.assert;
 
-const Block = require('../lib/block');
+const Block = require('../lib/js/block');
 const options = {x: 1, y: 2, width: 3, height: 4};
 
 describe('Block', () => {

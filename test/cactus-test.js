@@ -1,7 +1,7 @@
 const chai = require('chai');
 const assert = chai.assert;
 
-const Cactus = require('../lib/cactus');
+const Cactus = require('../lib/js/cactus');
 
 const options = {x: 50, y: 300, width: 10, height: 15, velocity: 4};
 

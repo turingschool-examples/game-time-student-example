@@ -1,12 +1,12 @@
 const chai = require('chai');
 const assert = chai.assert;
-const Bullet = require('../lib/bullet');
-const Cloud = require('../lib/background');
-const Cactus = require('../lib/cactus');
-const Ground = require('../lib/ground');
+const Bullet = require('../lib/js/bullet');
+const Cloud = require('../lib/js/background');
+const Cactus = require('../lib/js/cactus');
+const Ground = require('../lib/js/ground');
 
 
-const InitialGameObjects = require('../lib/initial-game-objects');
+const InitialGameObjects = require('../lib/js/initial-game-objects');
 
 
 describe("InitialGameObjects", function(){

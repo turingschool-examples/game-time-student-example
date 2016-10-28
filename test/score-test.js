@@ -1,7 +1,7 @@
 const chai = require('chai');
 const assert = chai.assert;
 
-const Score = require('../lib/score');
+const Score = require('../lib/js/score');
 
 describe("Score", function(){
   it("instantiates with a frameCount of 0", function(){
@@ -18,7 +18,7 @@ describe("Score", function(){
 
   it("currentScore starts at 0", function(){
     let score = new Score();
-    
+
     assert.equal(score.currentScore, 0);
   });
 
