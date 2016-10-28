@@ -1,11 +1,11 @@
 const chai = require('chai');
 const assert = chai.assert;
 
-const Dino = require('../lib/dino');
-const Cactus = require('../lib/cactus');
-const Bullet = require('../lib/bullet');
-const Collision = require('../lib/collision');
-const Images = require('../lib/imageRepo');
+const Dino = require('../lib/js/dino');
+const Cactus = require('../lib/js/cactus');
+const Bullet = require('../lib/js/bullet');
+const Collision = require('../lib/js/collision');
+const Images = require('../lib/js/imageRepo');
 
 
 describe("Collision", function(){

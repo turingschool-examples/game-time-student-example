@@ -3,11 +3,11 @@ const path = require('path');
 module.exports = {
   devtool: 'eval',
   entry: {
-    main: ["babel/polyfill", "./lib/index.js"],
+    main: ["babel/polyfill", "./lib/js/index.js"],
     test: ["babel/polyfill", "mocha!./test/index.js"]
   },
   output: {
-    path: __dirname,
+    path: __dirname + '/public/js',
     filename: "[name].bundle.js"
   },
   module: {

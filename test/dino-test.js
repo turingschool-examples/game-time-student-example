@@ -1,7 +1,7 @@
 const chai = require('chai');
 const assert = chai.assert;
 
-const Dino = require('../lib/dino');
+const Dino = require('../lib/js/dino');
 
 const options = {x: 50, y: 225, width: 10, height: 15};
 

@@ -1,7 +1,7 @@
 const chai = require('chai');
 const assert = chai.assert;
 
-const Bullet = require('../lib/bullet');
+const Bullet = require('../lib/js/bullet');
 
 const options = {x: 50, y: 300, width: 1, height: 1};
 
