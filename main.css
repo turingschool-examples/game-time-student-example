@@ -1,6 +1,7 @@
 body {
   background-color: black;
   color: white;
+  font-family: 'Press Start 2P', cursive;
 }
 
 canvas {
@@ -24,7 +25,6 @@ canvas {
 }
 
 #scoreboard {
-  font-family: 'Press Start 2P', cursive;
   font-size: 75%;
 }
 
@@ -36,7 +36,6 @@ tr td {
 #score-pos {
   margin-top: 5px;
   margin-bottom: 5px;
-  font-family: 'Press Start 2P', cursive;
   display: inline-block;
   float: right;
   margin-right: 175px;
@@ -53,12 +52,10 @@ tr td {
   display: inline-block;
   margin-left: 175px;
   margin-top: 0px;
-  font-family: 'Press Start 2P', cursive;
   font-size: 75%;
 }
 
 .form {
-  font-family: 'Press Start 2P', cursive;
   text-align: center ;
 }
 
@@ -72,18 +69,27 @@ tr td {
   margin-top: 5px;
 }
 #title h1 {
-  font-family: 'Press Start 2P', cursive;
   margin-top: 50px;
   margin-bottom: 10px;
 }
 
 #mute-btn {
-    font-family: 'Press Start 2P', cursive;
-    margin-bottom: 5px;
+  font-family: inherit;
+  margin-bottom: 5px;
 }
 
-#unmute-btn {
-    font-family: 'Press Start 2P', cursive;
-    display: none;
-    margin-bottom: 5px;
+#mute-btn.muted .show-muted {
+  display: inline;
+}
+
+#mute-btn.muted .show-unmuted {
+  display: none;
+}
+
+.unmuted .show.unmuted {
+  display: inline;
+}
+
+.unmuted .show-muted {
+  display: none;
 }
